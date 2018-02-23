@@ -78,3 +78,9 @@ main{
     background: black;
     width: 100%;
 }
+
+.button{
+    padding: .5em;
+    border: 1px solid black;
+    margin: 2px;
+}
