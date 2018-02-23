@@ -1,0 +1,15 @@
+html{
+    background: black;
+    cursor: none;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+canvas{
+    display: block;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+		var rectData = new Float32Array([
+			/* 
+				width
+			x1y1      x2y1
+				+----/
+				|   /
+		height	|  /
+				| /
+				|/
+			x1y2
+			*/
+			x1, y1,
+			x2, y1,
+			x1, y2,
+
+			/*
+					x2y1
+					 /|
+					/ |
+				   /  |	height
+				  /   |
+				 /----+
+			x1y2	 x2y2
+				width
+			*/
+
+			x1, y2,
+			x2, y1,
+			x2, y2,
+		]);
+
+		initBuffer(rectData, 2, attribute);
+	}

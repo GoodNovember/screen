@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Screen Remote</title>
+    <link rel="stylesheet" href="./norm.css">
+    <link rel="stylesheet" href="./remote-style.css">
+</head>
+<body>
+    <main>
+        <div class="top label">REMOTE</div>
+        <div id="connection" class="inactive">
+            <div id="connection-status"></div>
+            <div id="connect-button">Connect</div>
+        </div>
+        <div class="debug">
+            <div id="fps"></div>
+        </div>
+        <div>
+            <div class="active-cue">Active Cue</div>
+            <div id="play-button">(PLAY)</div>
+            <div id="stop-button">(STOP)</div>
+            <div id="pause-button">(PAUSE)</div>
+        </div>
+        <div class="active-progress">
+            <div id="progress"></div>
+        </div>
+        <div class="cue-list">
+            <div class="cue">
+                <div class="label">Walrus Jerkey</div>
+            </div>
+        </div>
+    </main>
+    <script src="./remote-client.js"></script>
+</body>
+</html>

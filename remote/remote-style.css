@@ -1,0 +1,80 @@
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid black;
+    min-height: 100vh;
+}
+
+#connection.active #connect-button{
+    display: none;
+}
+
+.cue-list,
+.sub-cue-list{
+    flex-grow: 1;
+    margin: 2px;
+    border: 1px solid black;
+    background: white;
+    overflow-y: scroll;
+    padding: 1px;
+}
+
+.top.label{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.cue-list .cue,
+.sub-cue-list .cue{
+    background: red;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 1px;
+    padding: 1px;
+}
+
+.cue.audio{
+    background: yellow;
+    color: black;
+}
+
+.cue.video{
+    background: green;
+    color: white;
+}
+
+.cue.image{
+    background: blue;
+    color: yellow;
+}
+
+.cue.comment{
+    background: darkmagenta;
+    color: white;
+}
+
+.cue.text{
+    background: white;
+    color: black;
+}
+
+.cue.sub-cue-list{
+    background: teal;
+    color: pink;
+}
+
+.active-progress{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#progress{
+    transform-origin: left center;
+    min-height: .5em;
+    background: black;
+    width: 100%;
+}

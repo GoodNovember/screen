@@ -1,0 +1,35 @@
+{
+    "title":"Title Of Show",
+    "description":"Woo!",
+    "cues":[
+        {
+            "name": "Wee, here comes the school bus.",
+            "description": "I mean, it's a school bus, how should I describe it?",
+            "type": "video",
+            "path": "~/videos/wee.mp4",
+            "volumeChange": 2.0
+        },
+        {
+            "type":"image",
+            "path":"~/images/wonk.png"
+        },
+        {
+            "type":"audio",
+            "volumeChange":0.0,
+            "startPoint":0.25
+        },
+        {
+            "type":"comment",
+            "body":"Well, something needs to be done about cue #20"
+        },
+        {
+            "type":"text",
+            "html-path":"~/html/something.html",
+            "css-path":"~/html/something.css"
+        },
+        {
+            "type":"subcueContainer",
+            "cues":[]
+        }
+    ]
+}
